@@ -8,7 +8,6 @@ import getListings, {
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import ClientOnly from "./components/ClientOnly";
 
-export const revalidate = 0
 
 interface HomeProps {
   searchParams: IListingsParams
